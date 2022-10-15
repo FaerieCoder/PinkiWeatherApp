@@ -13,7 +13,7 @@ body {
   font-family: "Noto Sans Mono";
 }
 
-.content-box {
+/* .content-box {
   background-color: #fcf9fb81;
   margin: 0 auto;
   margin-top: 40px;
@@ -28,12 +28,12 @@ body {
 }
 
 /* NAVIGATION BAR */
-.center-box {
+/* .center-box {
   margin: 0 auto;
   margin-top: 25px;
   display: flex;
   justify-content: center;
-}
+} */
 .navbar ul li {
   list-style: none;
   display: inline;

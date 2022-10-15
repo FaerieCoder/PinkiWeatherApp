@@ -16,55 +16,83 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="content-box">
+    <div class="container">
+      <!-- TOP COUNTRY NAVIGATION LIST -->
       <div class="row">
         <div class="col">
-          <div class="navbar center-box">
-            <ul>
-              <li><a href="">London</a></li>
-              <li><a href="">Tokyo</a></li>
-              <li><a href="">New York</a></li>
-              <li><a href="">Paris</a></li>
-              <li><a href="">Amsterdam</a></li>
-            </ul>
-          </div>
+          <ul>
+            <li><a href="">London</a></li>
+            <li><a href="">Tokyo</a></li>
+            <li><a href="">New York</a></li>
+            <li><a href="">Paris</a></li>
+            <li><a href="">Amsterdam</a></li>
+          </ul>
         </div>
       </div>
 
+      <!-- SEARCH BOX SECTION -->
       <div class="row">
         <div class="col">
-          <div class="search-box">
-            <input type="text" id="searchBox" />
-            <button type="submit" id="button">Search</button>
-          </div>
+          <input type="text" id="searchBox" />
+        </div>
+        <div class="col">
+          <button type="submit" id="button">Search</button>
         </div>
       </div>
 
+      <!-- MAIN SECTION -->
       <div class="row">
-        <div class="col">
-          <div class="info">
-            <h1>London</h1>
-            <ul>
-              <li>Monday 15:00</li>
-              <li>Clouds</li>
-              <li>Precipitation: 76%</li>
-              <li>Wind: 5km/h</li>
-            </ul>
-          </div>
+        <div class="col-7">
+          <h1>London</h1>
+          <ul>
+            <li>Monday 15:00</li>
+            <li>Clouds</li>
+            <li>Precipitation: 76%</li>
+            <li>Wind: 5km/h</li>
+          </ul>
+        </div>
+        <div class="col-5">
           <div class="weather-image">Image of the weather</div>
         </div>
       </div>
 
       <div class="row">
         <div class="col">
-          <div class="day-card">
-            <ul>
-              <li>hi</li>
-            </ul>
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Tuesday</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Wednesday</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Thursday</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Friday</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">Saturday</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <footer></footer>
   </body>
 </html>
