@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
   margin-top: 40px;
   width: 750px;
-  height: 830px;
+  height: 780px;
   padding: 25px;
 
   border-top: solid 2px #ffffffb0;
@@ -122,10 +122,21 @@ body {
 .card {
   border: none;
   border-radius: 10px;
-  height: 360px;
+  height: 300px;
+  transition: 400ms;
 }
-.card-body {
+.card-title {
   font-weight: 600;
+}
+.weather-emoji {
+  background-color: #d99eb3;
+  height: 90px;
+  margin: 40px 0px;
+}
+
+.card:hover {
+  background-color: #ffd4e6;
+  box-shadow: 2px 2px 24px 0px #ffffffe1;
 }
 
 /* FOOTER */
