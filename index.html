@@ -16,55 +16,107 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="content-box">
-      <div class="row">
-        <div class="col">
-          <div class="navbar center-box">
-            <ul>
-              <li><a href="">London</a></li>
-              <li><a href="">Tokyo</a></li>
-              <li><a href="">New York</a></li>
-              <li><a href="">Paris</a></li>
-              <li><a href="">Amsterdam</a></li>
-            </ul>
-          </div>
+    <div class="container content-box">
+      <!-- TOP COUNTRY NAVIGATION LIST -->
+      <div class="row center-box">
+        <div class="col navbar">
+          <ul>
+            <li><a href="">London</a></li>
+            <li><a href="">Tokyo</a></li>
+            <li><a href="">New York</a></li>
+            <li><a href="">Paris</a></li>
+            <li><a href="">Amsterdam</a></li>
+          </ul>
         </div>
       </div>
 
-      <div class="row">
+      <!-- SEARCH BOX SECTION -->
+      <div class="row search-section">
         <div class="col">
-          <div class="search-box">
-            <input type="text" id="searchBox" />
-            <button type="submit" id="button">Search</button>
-          </div>
+          <input type="text" id="searchBox" />
+        </div>
+        <div class="col">
+          <button type="submit" id="button">Search</button>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col">
-          <div class="info">
-            <h1>London</h1>
-            <ul>
-              <li>Monday 15:00</li>
-              <li>Clouds</li>
-              <li>Precipitation: 76%</li>
-              <li>Wind: 5km/h</li>
-            </ul>
-          </div>
+      <!-- MAIN SECTION -->
+      <div class="row main-section">
+        <div class="col-7 info">
+          <h1>London</h1>
+          <ul>
+            <li>Monday 15:00</li>
+            <li>Clouds</li>
+            <li>Precipitation: 76%</li>
+            <li>Wind: 5km/h</li>
+          </ul>
+        </div>
+        <div class="col-5">
           <div class="weather-image">Image of the weather</div>
         </div>
       </div>
 
+      <!-- THE OTHER DAYS SECTION -->
       <div class="row">
         <div class="col">
-          <div class="day-card">
-            <ul>
-              <li>hi</li>
-            </ul>
+          <div class="card text-center">
+            <div class="card-body">
+              <div class="card-title">Tuesday</div>
+              <div class="weather-emoji">image of weather emoji</div>
+              <p>10°</p>
+              <p>27°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <div class="card-title">Wednesday</div>
+              <div class="weather-emoji">image of weather emoji</div>
+              <p>6°</p>
+              <p>13°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <div class="card-title">Thursday</div>
+              <div class="weather-emoji">image of weather emoji</div>
+              <p>1°</p>
+              <p>11°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <div class="card-title">Friday</div>
+              <div class="weather-emoji">image of weather emoji</div>
+              <p>16°</p>
+              <p>21°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <div class="card-title">Saturday</div>
+              <div class="weather-emoji">image of weather emoji</div>
+              <p>6°</p>
+              <p>9°</p>
+            </div>
           </div>
         </div>
       </div>
+      <footer>
+        Created by
+        <a href="https://github.com/FaerieCoder" target="_blank"
+          >@FaerieCoder</a
+        >
+        | Created with HTML5, CSS3 & Bootstrap 5
+      </footer>
     </div>
-    <footer></footer>
+    <script src="index.js"></script>
   </body>
 </html>
